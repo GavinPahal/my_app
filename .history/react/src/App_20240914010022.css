@@ -1,0 +1,13 @@
+.image{
+  padding-left: 120px;
+  padding-top: 50px;
+}
+
+
+.album{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between
+  margin-bottom: 900px;
+  padding-left: 800px;
+}

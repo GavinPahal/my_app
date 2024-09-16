@@ -1,0 +1,19 @@
+.image{
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+
+.album{
+display: flex;
+flex-direction: column;
+justify-content:center;
+}
+
+.card{
+  display: flex;
+  justify-content:space-between;
+  
+}
+

@@ -1,0 +1,14 @@
+.image{
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+
+.album{
+display: flex;
+flex-direction: column;
+padding-left: 42rem;
+padding-bottom: 5rem;
+}
+

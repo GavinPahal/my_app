@@ -1,0 +1,17 @@
+.image{
+  display: flex;
+  padding-top: 30rem;
+}
+
+
+.album{
+display: flex;
+flex-direction: column;
+justify-content:center;
+padding-left: 40rem;
+padding-bottom: 80rem;
+}
+
+
+
+

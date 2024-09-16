@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+img {
+  margin-right: 50px;
+margin-left: 20px;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+details {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+summary {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+summary:hover {
+  color: #007bff;
+}
+
+details[open] summary {
+  color: #007bff;
+}
+
+ol {
+  padding-left: 20px;
+  margin: 10px 0;
+  list-style: decimal;
+}
+.heading{
+margin-bottom: 50px;
+}
+.ap{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}

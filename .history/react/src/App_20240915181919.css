@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+details {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 0 8px 8px; /* Only bottom corners are rounded */
+  padding: 10px;
+  background-color: #f9f9f9;
+  position: relative; /* Necessary for placing the plus sign */
+}
+
+summary {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  padding-right: 20px; /* Create space for the plus/minus sign */
+}
+
+summary:hover {
+  color: #007bff;
+}
+
+details[open] summary {
+  color: #007bff;
+}
+
+summary::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  transition: content 0.3s ease; /* Smooth transition */
+}
+
+details[open] summary::after {
+  content: '-'; /* Change to minus when details are open */
+}
+
+ol {
+  padding-left: 20px;
+  margin: 10px 0;
+  list-style: decimal;
+}
